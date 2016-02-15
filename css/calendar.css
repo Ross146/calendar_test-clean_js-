@@ -1,0 +1,36 @@
+div#calendar{
+  display: inline-block;
+  text-align: center;
+
+}
+div#calendar table{
+  margin-top: 15px;
+  border-spacing: 0;
+  border-collapse:collapse;
+}
+div#calendar table td {
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+}
+div#calendar table td.active{
+  background-color: #2E7FFF;
+  color: white;
+}
+div#calendar table tr:first-child{
+  border-bottom: 2px solid gray;
+  border-top: 1px solid gray;
+}
+div#calendar button{
+  color: #fff;
+  background-color: #2E7FFF;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+div#calendar button.next{
+  float:right;
+}
+div#calendar button.prev{
+  float:left;
+}
